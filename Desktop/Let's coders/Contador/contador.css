@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font: normal bold 16px/normal tahoma;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    background-color: #68b04d;
+    border-radius:  10px;
+    margin: 50px auto 20px;
+    padding:5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgb(235, 215, 215); //sombreado
+}
+
+article h3 {
+    padding: 10px;
+    color:cornsilk;
+}
+
+article count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 15px;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 2px;
+    font: bold;
+}
+
+article #botao {
+    background-color: #beceb8;
+    text-align: center;
+
+}
